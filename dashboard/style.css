@@ -1,0 +1,43 @@
+@charset "UTF-8";
+:root{
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #73b4ff;
+    padding: 10px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.info-header{
+    color: white;
+    display: flex;
+}
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+i{
+    margin-right: 20px;
+}
+.icons-header{
+    margin-left: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar{
+    width: 25%;
+    background-color: white;
+    height: 100%;
+}
+.content{
+    width: 75%;
+    background-color: rgb(190, 0, 0);
+}
